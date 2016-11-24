@@ -33,7 +33,7 @@ img:last-child {
 
   img {
     display: inline-block;
-    width: 50%;
+    width: 49%;
   }
 
   img:first-child {
@@ -47,3 +47,18 @@ img:last-child {
   img:last-child {
     display: inline-block;
   }
+
+  @media only screen and (min-width: 38em) {
+
+    img {
+      display: inline-block;
+      direction: 49%;
+    }
+
+    img:first-child {
+      width: 100%;
+    }
+
+    img:last-child {
+      display: none;
+    }
