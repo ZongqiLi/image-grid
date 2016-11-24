@@ -85,33 +85,16 @@ img:last-child {
 
   img {
     display: block;
-    width: 33.3%;
-    float: left;
-  }
-
-  img:first-child {
-    width: 66.6%;
-  }
-
-  img:last-child {
-    display: block;
-  }
-
-}
-@media only screen and (min-width: 90em) {
-
-  body {
-    margin: 0;
-  }
-
-  img {
-    display: block;
     width: 33.3333%;
     float: left;
   }
 
   img:first-child {
     width: 66.6666%;
+  }
+
+  img:last-child {
+    display: block;
   }
 
 }
